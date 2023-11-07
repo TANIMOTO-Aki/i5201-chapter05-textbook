@@ -27,3 +27,18 @@ String s2 = "abc";
 ⑥(-v1 != v4) && (v2 == v4)
 
 ①true、②true、③false、④true、⑤false、⑥false
+
+
+問題３
+int v1 = -1, v2 = 0, v3 = 1;
+String s1 = "ABC";
+String s2 = "abc";
+
+次の条件式の場合、表示されるのは「true」「false」どちらか
+①!(v1 < 0)
+②!(0 < v2)
+③!s1.epuals(s2)
+④!((v2 < -1) && (1 < v2))
+⑤!(v2 < -1) || !(1 < v2)
+
+①false、②true、③true、④true、⑤true
