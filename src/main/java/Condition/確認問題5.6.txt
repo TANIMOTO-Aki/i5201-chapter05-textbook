@@ -1,0 +1,12 @@
+int v1 = -10, v2 = 0, v3 = 10, v4 = 100;
+String s1 = "ABC";
+String s2 = "abc";
+
+次の条件式の場合、表示されるのは「true」「false」どちらか
+①(v1 == 0) || (v2 == 0)
+②(v3 < 0) || (10 < v3)
+③(v2 < v3) || (v2 < v4)
+④(v3 == (v4 - 10)) || s1.epuals(s2)
+⑤(v1 != v3) || (-v1 != v3)
+
+①true、②false、③true、④false、⑤true
