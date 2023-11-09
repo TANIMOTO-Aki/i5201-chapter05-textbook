@@ -4,7 +4,7 @@ public class Maximum2 {
     public static void main(String[] args) throws IOException {
         /* 定数と変数の宣言 */
         final String MAX_MESSAGE = "最大値は";      //"最大値は"のメッセージ
-        String max = "";                            //最大値
+
 
         /* 入力の準備 */
         BufferedReader br =
